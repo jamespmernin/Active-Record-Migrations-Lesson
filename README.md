@@ -4,7 +4,7 @@
 
  - Fork and clone this repo
  - `cd` into the repo
- - run `rails new . -G --api --database=postgresql`
+ - run `rails new . -MT --skip-active-storage --api --database=postgresql`
     - type `n` when it asks if you want to replace the readme
  - `rails db:create`
 
